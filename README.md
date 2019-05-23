@@ -1,6 +1,6 @@
 # Playing Snake using Deep Reinforcement Learning
 
-In this project, I will be implementing a deep Q-network (DQN) to play a simple game of Snake. The goal is to maximize the score of game in a 10x10 space and modify the DQN to stretch out the performance as much as possible.
+In this project, I have implemented a deep Q-network (DQN) to play a simple game of Snake. The goal is to maximize the score of game in a 10x10 space and modify the DQN to stretch out the performance as much as possible.
 
 *Find full explanation [here](https://github.com/sahiljohari/thisthinglearns/blob/master/DeepQLearning_Snake_v1.ipynb)*
 ## Q-learning and Deep Q-Networks
@@ -8,7 +8,7 @@ There are two main approaches to solving RL problems:
 - Methods based on value functions
 - Methods based on policy search
 
-There is also a hybrid actor-critic approach that employs both value functions and policy search. As far as the scope of this project is concerned, I am going to use the _value functions_ approach to play the Snake game.
+There is also a hybrid actor-critic approach that employs both value functions and policy search. As far as the scope of this project is concerned, I have used the _value functions_ approach to play the Snake game.
 
 In Q-learning, which is a value functions approach, we use a Q-table that maps environment states with actions taken on them. For each (state, action) pair, there is a reward that the agent achieves. The idea is to pick a value that maximizes the cumulative reward by the end of an episode. To do this, we use an equation called the Bellman equation, which is shown below:
 ![Bellman equation](https://github.com/sahiljohari/thisthinglearns/blob/master/Bellman_equation.PNG)
